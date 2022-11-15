@@ -1,4 +1,26 @@
 @font-face {
+    font-family: 'MuseoSansCyrl';
+    font-style:  normal;
+    font-weight: 300;
+    src: url("./MuseoSansCyrl-300.woff2") format("woff2"),
+        url("./MuseoSansCyrl-300.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    font-style:  normal;
+    font-weight: 100;
+    src: url("./MuseoSansCyrl100.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    font-style:  bold;
+    font-weight: 500;
+    src: url("./MuseoSansCyrl500.woff") format("woff");
+}
+
+/*@font-face {
     font-family: 'Inter';
     font-style:  normal;
     font-weight: 400;
@@ -28,4 +50,4 @@
     font-weight: 500;
     src: url("./Inter-SemiBold.woff2") format("woff2"),
         url("./Inter-SemiBold.woff") format("woff");
-}
+}*/

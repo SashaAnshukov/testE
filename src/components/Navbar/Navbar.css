@@ -65,7 +65,7 @@
   width: 28px;
   height: 2px;
 
-  background-color: #000000;
+  background-color: rgb(215, 93, 25);
 
   transition-duration: .25s;
 }

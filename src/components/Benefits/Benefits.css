@@ -1,0 +1,15 @@
+/*.Benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 185px);
+    grid-template-rows: repeat(2, 185px);
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.Benefits {
+    display: flex;
+    flex-direction: row;
+}

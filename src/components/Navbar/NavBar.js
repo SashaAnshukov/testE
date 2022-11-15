@@ -23,14 +23,12 @@ function NavBar() {
           </div>
 
           <div className="hamburger-menu">
-          
             <input id="menu__toggle" type="checkbox" />
             <label className="menu__btn" htmlFor="menu__toggle">
               <span></span>
             </label>
             <div className="menu__overlay"></div>
             <ul className="menu__box">
-              
               <Link onClick={handleClick} to="/" className="menu__item"> Главная </Link>
               <Link onClick={handleClick} to="/" className="menu__item"> Технологии </Link>
               <Link onClick={handleClick} to="/" className="menu__item"> График полетов </Link>

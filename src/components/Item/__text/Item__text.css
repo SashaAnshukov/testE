@@ -1,0 +1,14 @@
+.Item__text {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 45px auto 26px auto;
+}
+
+.Item__text:last-child {
+    margin: 9px auto 34px auto;
+}

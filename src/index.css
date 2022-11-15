@@ -1,3 +1,5 @@
+@import url('./vendor/fonts/fonts.css');
+
 @import url('./components/App/App.css');
 
 @import url('./components/Header/header.css');
@@ -5,6 +7,15 @@
 
 @import url('./components/Navbar/Navbar.css');
 @import url('./components/Navbar/container/NavBar__container.css');
+@import url('./components/Navbar/__link/_movies/NavBar__link_movies.css');
+@import url('./components/Navbar/__link/_profile/NavBar__link_profile.css');
+@import url('./components/Navbar/__link/_startScreen/NavBar__link_startScreen.css');
 
+@import url('./components/Benefits/Benefits.css');
+@import url('./components/BenefitItem/BenefitItem.css');
+
+@import url('./components/Item/Item.css');
+@import url('./components/Item/__text/Item__text.css');
+@import url('./components/Item/__number/Item__number.css');
 
 
