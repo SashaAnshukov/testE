@@ -1,7 +1,7 @@
 .Item__text {
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: rgb(220, 220, 220);
     font-style: normal;
     font-weight: 300;
     font-size: 16px;

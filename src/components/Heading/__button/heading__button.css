@@ -5,15 +5,6 @@
 	font-family: 'MuseoSansCyrl';
 }
 
-.hr-right-down {
-  margin: 25px 0 40px 0;
-padding: 0;
-height: 0;
-border: none;
-border-top: 1px solid #333;
-transform:rotate(45deg);
-}
-
 .container {
 	width: 1000px;
 	display: flex;
@@ -24,13 +15,14 @@ transform:rotate(45deg);
 	position: relative;
 	top: 0;
 	left: 0;
-	width: 250px;
-	height: 50px;
+	width: 180px;
+	height: 35px;
 	margin: 73px 0 0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .container .btn a {
 	position: absolute;
 	top: 0;
@@ -44,9 +36,12 @@ transform:rotate(45deg);
 	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 30px;
+	border-radius: 0;
 	padding: 10px;
-	letter-spacing: 1px;
+  font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+	
 	text-decoration: none;
 	overflow: hidden;
 	color: rgb(145, 146, 150);
@@ -56,7 +51,7 @@ transform:rotate(45deg);
 	backdrop-filter: blur(15px);
 }
 .container .btn:hover a {
-	letter-spacing: 1.3px;
+	letter-spacing: -0.9px;
 }
 .container .btn a::before {
 	content: "";

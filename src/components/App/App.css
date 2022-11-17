@@ -2,7 +2,6 @@
     background-color: rgb(235, 222, 222);
     background-image: url(../../images/backGround.png);
     background-repeat: no-repeat;
-    background-position: top center;
     color: #fff;
     font-family: 'MuseoSansCyrl','Inter', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -19,7 +18,5 @@
 }
 
 body {
-    /*background: radial-gradient(at 86% 20%,#555, #111);
-    background-attachment: fixed;*/
     margin: 0;
 }

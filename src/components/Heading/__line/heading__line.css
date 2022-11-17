@@ -1,0 +1,8 @@
+.heading__line {
+    display: flex;
+    width: 343px;
+    height: 200px;
+    margin: 70px 0 0 0;
+    background: url(../../../images/line.png);
+    background-repeat: no-repeat;
+}

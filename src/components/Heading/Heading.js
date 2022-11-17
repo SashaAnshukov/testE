@@ -1,6 +1,3 @@
-
-import mars from '../../images/SpaceX-Logo-PNG.png';
-
 function Heading() {
       
     return (
@@ -9,7 +6,7 @@ function Heading() {
             <p className="heading__description">На красную планету</p>
             <div className="container">
               <div className="btn"><a href="#" >Начать путешествие</a></div>
-              <hr className="hr-right-down"></hr>	
+              <div className="heading__line"></div>	
             </div>
             <div className="Round"></div>
         </section>

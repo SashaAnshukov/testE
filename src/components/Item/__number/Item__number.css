@@ -1,7 +1,7 @@
 .Item__number{
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: rgb(220, 220, 220);
     font-weight: bold;
     font-size: 55px;
     line-height: 47px;
