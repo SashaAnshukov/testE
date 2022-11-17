@@ -18,4 +18,8 @@
 @import url('./components/Item/__text/Item__text.css');
 @import url('./components/Item/__number/Item__number.css');
 
-
+@import url('./components/Heading/Heading.css');
+@import url('./components/Heading/__title/heading__title.css');
+@import url('./components/Heading/__description/heading__description.css');
+@import url('./components/Heading/__button/heading__button.css');
+@import url('./components/Heading/__mars/Heading_mars.css');

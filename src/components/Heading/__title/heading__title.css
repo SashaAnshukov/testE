@@ -1,0 +1,12 @@
+.heading__title{
+    display: flex;
+
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 47px;
+    margin: 0;
+    background: linear-gradient(90deg, #ffff 10%, rgb(255, 152, 120) 50%, rgb(255, 69, 12));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(255, 69, 12);
+}

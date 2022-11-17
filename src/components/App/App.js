@@ -2,18 +2,23 @@ import {useState} from 'react';
 import Header from '../Header/Header';
 import NavBar from '../Navbar/NavBar';
 import Benefits from '../Benefits/Benefits';
+import Heading from '../Heading/Heading';
 
 function App() {
 
 
 
   return (
-    <div className="App">
-      <Header >
-        <NavBar />  
-      </Header>
-      <Benefits /> 
-    </div>
+    
+      <div className="App">
+        <Header >
+          <NavBar />  
+        </Header>
+        <Benefits>
+          <Heading />
+        </Benefits>
+      </div>
+  
   );
 }
 
