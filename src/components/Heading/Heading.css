@@ -1,16 +1,26 @@
 .Heading {
     display: flex;
-    width: 422px;
+    width: 450px;
     flex-direction: column;
-    margin: 117px 0 0 438px;
+    margin: 117px 0 0 370px;
 }
 
-.Round {
-    background-image: url(../../images/Mars.png);
-    background-repeat: no-repeat;
-    position: fixed;
-    width: 450px;
-    height: 150px;
-    margin-left: 320px;
-    top: 136px;
+@media screen and (max-width: 1280px) {
+    .Heading {
+        margin: 117px 0 0 138px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Heading {
+        margin: 117px 0 0 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Heading {
+        margin: 117px 0 0 13px;
+        max-width: 300px;
+        align-items: center;
+    }
 }

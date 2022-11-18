@@ -8,7 +8,7 @@ function Heading() {
               <div className="btn"><a href="#" >Начать путешествие</a></div>
               <div className="heading__line"></div>	
             </div>
-            <div className="Round"></div>
+            <div className="heading__round"></div>
         </section>
     );
 }

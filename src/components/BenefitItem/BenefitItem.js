@@ -50,7 +50,7 @@ function BenefitItem() {
 
     return (
         <section className="BenefitItem">
-            <Link style={squareOne}>
+            <Link id="squareOne" style={squareOne}>
                 <Item upperText = {squareOne.id1} mediumText={squareOne.id2} bottomText={squareOne.id3} />
             </Link>
             <Link style={squareTwo}>

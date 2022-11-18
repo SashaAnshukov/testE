@@ -4,7 +4,30 @@
     grid-template-rows: repeat(2, 185px);
     row-gap: 10px;
     column-gap: 10px;
-    margin-right: 340px;
-    margin: 38px 340px 0 397px;
+    margin: 38px 137px 0 387px;
     /*border: 1px solid salmon;*/
+}
+
+@media screen and (max-width: 1280px) {
+    .BenefitItem {
+        grid-template-columns: repeat(2, 140px);
+        grid-template-rows: repeat(2, 140px);
+        margin: 38px 137px 0 287px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .BenefitItem {
+        grid-template-columns: repeat(1, 70px);
+        grid-template-rows: repeat(4, 70px);
+        margin: 60px 17px 0 167px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .BenefitItem {
+        grid-template-columns: repeat(4, 70px);
+        grid-template-rows: repeat(1, 70px);
+        margin: 0px 0px 0 0px;
+    }
 }

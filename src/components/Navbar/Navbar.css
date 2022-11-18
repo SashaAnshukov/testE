@@ -93,9 +93,8 @@
 
   list-style: none;
 
-  background-color: #fafafa;
+  background-color: #000000;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-
   transition-duration: .25s;
   z-index: 50;
 }
@@ -110,15 +109,16 @@
   display: flex;
   justify-content: center;
   padding: 0 0 36px 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 250, 250);
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
   transition-duration: .25s;
 }
 .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: #ff831e;
   text-decoration: underline;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 6);
 }
 
 .menu__item-account {

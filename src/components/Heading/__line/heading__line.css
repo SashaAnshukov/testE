@@ -1,8 +1,26 @@
 .heading__line {
     display: flex;
-    width: 343px;
+    width: 410px;
     height: 200px;
     margin: 70px 0 0 0;
     background: url(../../../images/line.png);
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1280px) {
+    .heading__line {
+        width: 322px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading__line {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .heading__line {
+        display: none;
+    }
 }

@@ -7,3 +7,17 @@
     line-height: 47px;
     margin: 0 auto 0 auto;
 }
+
+@media screen and (max-width: 1280px) {
+    .Item__number {
+        font-size: 45px;
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Item__number {
+        font-size: 25px;
+        line-height: 27px;
+    }
+}

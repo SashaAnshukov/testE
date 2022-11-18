@@ -7,9 +7,7 @@
 
 @import url('./components/Navbar/Navbar.css');
 @import url('./components/Navbar/container/NavBar__container.css');
-@import url('./components/Navbar/__link/_movies/NavBar__link.css');
-@import url('./components/Navbar/__link/_profile/NavBar__link_profile.css');
-@import url('./components/Navbar/__link/_startScreen/NavBar__link_startScreen.css');
+@import url('./components/Navbar/__link/NavBar__link.css');
 
 @import url('./components/Benefits/Benefits.css');
 @import url('./components/BenefitItem/BenefitItem.css');
@@ -23,4 +21,5 @@
 @import url('./components/Heading/__description/heading__description.css');
 @import url('./components/Heading/__button/heading__button.css');
 @import url('./components/Heading/__mars/Heading_mars.css');
+@import url('./components/Heading/__round/heading__round.css');
 @import url('./components/Heading/__line/heading__line.css');

@@ -2,3 +2,10 @@
     display: flex;
     flex-direction: row;
 }
+
+
+@media screen and (max-width: 320px) {
+    .Benefits {
+        flex-direction: column;
+    }
+}

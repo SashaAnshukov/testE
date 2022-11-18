@@ -12,3 +12,25 @@
 .Item__text:last-child {
     margin: 9px auto 34px auto;
 }
+
+@media screen and (max-width: 1280px) {
+    .Item__text {
+        margin: 15px auto 26px auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .Item__text:last-child {
+        margin: 9px auto 3px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Item__text {
+        margin: 2px auto 2px auto;
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .Item__text:last-child {
+        margin: 2px auto 2px auto;
+    }
+}
