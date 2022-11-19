@@ -11,15 +11,15 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .Heading {
-        margin: 117px 0 0 13px;
+        margin: 60px 0 0 13px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .Heading {
-        margin: 117px 0 0 13px;
+        margin: 117px 0 0 10px;
         max-width: 300px;
         align-items: center;
     }

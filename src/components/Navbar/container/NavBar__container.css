@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .NavBar__container {
         margin-right: 30px;
     }

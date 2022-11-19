@@ -12,7 +12,7 @@
 	justify-content: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .container {
         width: 500px;
 		display: flex;
@@ -27,7 +27,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		margin: 173px 0 10px 0;
+		margin: 55px 0 10px 0;
     }
 }
 
@@ -37,10 +37,22 @@
 	left: 0;
 	width: 180px;
 	height: 35px;
-	margin: 73px 0 0 0;
+	margin: 136px 0 0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .container .btn {
+        margin: 75px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container .btn {
+        margin: 24px 0 0 0;
+    }
 }
 
 .container .btn a {

@@ -105,6 +105,12 @@
   }
 }
 
+@media screen and (max-width: 520px) {
+  .menu__box {
+    padding: 55px 0;
+  }
+}
+
 .menu__item {
   display: flex;
   justify-content: center;

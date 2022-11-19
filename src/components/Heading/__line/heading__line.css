@@ -2,7 +2,7 @@
     display: flex;
     width: 410px;
     height: 200px;
-    margin: 70px 0 0 0;
+    margin: 145px 0 0 0;
     background: url(../../../images/line.png);
     background-repeat: no-repeat;
 }
@@ -13,9 +13,10 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .heading__line {
-        width: 200px;
+        width: 207px;
+        margin: 88px 0 0 0;
     }
 }
 

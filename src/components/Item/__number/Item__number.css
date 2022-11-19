@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 800px) {
     .Item__number {
         font-size: 25px;
         line-height: 27px;

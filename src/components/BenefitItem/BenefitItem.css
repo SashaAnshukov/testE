@@ -1,26 +1,18 @@
 .BenefitItem {
     display: grid;
-    grid-template-columns: repeat(2, 185px);
-    grid-template-rows: repeat(2, 185px);
+    grid-template-columns: repeat(2, 140px);
+    grid-template-rows: repeat(2, 140px);
     row-gap: 10px;
     column-gap: 10px;
-    margin: 38px 137px 0 387px;
+    margin: 118px 108px 0 0;
     /*border: 1px solid salmon;*/
 }
 
-@media screen and (max-width: 1280px) {
-    .BenefitItem {
-        grid-template-columns: repeat(2, 140px);
-        grid-template-rows: repeat(2, 140px);
-        margin: 38px 137px 0 287px;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .BenefitItem {
         grid-template-columns: repeat(1, 70px);
         grid-template-rows: repeat(4, 70px);
-        margin: 60px 17px 0 167px;
+        margin: 50px 13px 0 0px;
     }
 }
 

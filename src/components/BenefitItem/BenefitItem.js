@@ -10,10 +10,6 @@ function BenefitItem() {
         background:'linear-gradient(to top left,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)',
         textDecoration: 'none'
     }
-    
-    /*const squareOnestyle = {
-        background: 'linear-gradient(to top left,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)'
-    }*/
 
     const squareTwo = {
         id1: 'гарантируем',
@@ -22,9 +18,6 @@ function BenefitItem() {
         background:'linear-gradient(to top right,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)',
         textDecoration: 'none'
     }
-    /*const squareTwostyle = {
-        background: 'linear-gradient(to top right,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)'
-    }*/
 
     const squareThree = {
         id1: 'календарик за',
@@ -33,9 +26,7 @@ function BenefitItem() {
         background:'linear-gradient(to bottom left,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)',
         textDecoration: 'none'
     }
-    /*const squareThreestyle = {
-        background: 'linear-gradient(to bottom left,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)'
-    }*/
+
     const squareFour = {
         id1: 'путешествие',
         id2: '597',
@@ -43,10 +34,6 @@ function BenefitItem() {
         background:'linear-gradient(to bottom right,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)',
         textDecoration: 'none'
     }
-
-    /*const squareFourstyle = {
-        background: 'linear-gradient(to bottom right,rgba(25, 30, 41,1) 0%,rgba(125,185,232,0) 40%)'
-    }*/
 
     return (
         <section className="BenefitItem">

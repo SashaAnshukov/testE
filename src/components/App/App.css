@@ -1,6 +1,7 @@
 .App {
     background-color: rgb(235, 222, 222);
     background-image: url(../../images/backGround.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     color: #fff;
@@ -8,14 +9,31 @@
     box-sizing: border-box;
     object-fit: contain;
     width: 100%;
+    height: 100vh;
     margin: 0;
-    padding:0;
+    padding: 0;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
+}
+
+.App_forMars {
+    background-image: url(../../images/Mars2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width: 800px) {
+    .App_forMars {
+        display: none;
+    }
 }
 
 body {
