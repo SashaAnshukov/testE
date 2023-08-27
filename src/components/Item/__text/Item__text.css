@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .Item__text {
     margin: 2px auto 2px auto;
     font-size: 8px;

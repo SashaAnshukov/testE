@@ -29,13 +29,13 @@
   height: 100vh;
 }
 
-@media screen and (1281px <= width <= 1930px) {
+@media screen and (1281px <= width <= 1830px) {
   .App_forMars {
     display: none;
   }
 }
 
-@media screen and (width <= 1260px) {
+@media screen and (width <= 1220px) {
   .App_forMars {
     display: none;
   }

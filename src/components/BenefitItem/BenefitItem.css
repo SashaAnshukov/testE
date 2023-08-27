@@ -10,8 +10,14 @@
 
 @media screen and (max-width: 900px) {
   .BenefitItem {
+    grid-template-columns: repeat(4, 140px);
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .BenefitItem {
     grid-template-columns: repeat(4, 70px);
-    grid-template-rows: repeat(1, max-content);
     margin: 20px auto;
   }
 }
@@ -19,12 +25,5 @@
 @media screen and (max-width: 900px) {
   .BenefitItem {
     margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .BenefitItem-link {
-    background: none !important;
-    height: max-content;
   }
 }
