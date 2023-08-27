@@ -40,28 +40,28 @@ function BenefitItem() {
 
   return (
     <section className="BenefitItem">
-      <Link className="BenefitItem-link" id="squareOne" style={squareOne}>
+      <Link id="squareOne" style={squareOne}>
         <Item
           upperText={squareOne.id1}
           mediumText={squareOne.id2}
           bottomText={squareOne.id3}
         />
       </Link>
-      <Link className="BenefitItem-link" style={squareTwo}>
+      <Link style={squareTwo}>
         <Item
           upperText={squareTwo.id1}
           mediumText={squareTwo.id2}
           bottomText={squareTwo.id3}
         />
       </Link>
-      <Link className="BenefitItem-link" style={squareThree}>
+      <Link style={squareThree}>
         <Item
           upperText={squareThree.id1}
           mediumText={squareThree.id2}
           bottomText={squareThree.id3}
         />
       </Link>
-      <Link className="BenefitItem-link" style={squareFour}>
+      <Link style={squareFour}>
         <Item
           upperText={squareFour.id1}
           mediumText={squareFour.id2}

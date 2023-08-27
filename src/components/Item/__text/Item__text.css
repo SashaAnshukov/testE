@@ -6,7 +6,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
-  margin: 45px auto 26px auto;
+  margin: 15px auto 26px auto;
 }
 
 .Item__text:last-child {
@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 1280px) {
   .Item__text {
-    margin: 15px auto 26px auto;
     font-size: 14px;
     line-height: 20px;
   }
@@ -24,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .Item__text {
     margin: 2px auto 2px auto;
     font-size: 8px;
