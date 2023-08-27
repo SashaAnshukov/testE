@@ -7,9 +7,9 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1980px) {
+@media screen and (max-width: 1960px) {
   .heading__line {
-    width: calc(410px - (1930px - 100vw) * 0.5);
+    width: calc(420px - (1960px - 100vw) * 0.5);
   }
 }
 
