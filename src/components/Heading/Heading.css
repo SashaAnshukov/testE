@@ -1,26 +1,26 @@
 .Heading {
-    display: flex;
-    width: 450px;
-    flex-direction: column;
-    margin: 117px 0 0 370px;
+  display: flex;
+  max-width: 450px;
+  flex-direction: column;
+  margin: 117px 0 0 370px;
 }
 
 @media screen and (max-width: 1280px) {
-    .Heading {
-        margin: 117px 0 0 138px;
-    }
+  .Heading {
+    margin: 117px 0 0 138px;
+  }
 }
 
-@media screen and (max-width: 800px) {
-    .Heading {
-        margin: 60px 0 0 13px;
-    }
+@media screen and (max-width: 900px) {
+  .Heading {
+    margin: 60px 0 0 13px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .Heading {
-        margin: 117px 0 0 10px;
-        max-width: 300px;
-        align-items: center;
-    }
+  .Heading {
+    margin: 117px 0 0 10px;
+    max-width: 300px;
+    align-items: center;
+  }
 }

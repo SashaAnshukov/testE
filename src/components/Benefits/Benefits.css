@@ -1,12 +1,11 @@
 .Benefits {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-@media screen and (max-width: 320px) {
-    .Benefits {
-        flex-direction: column;
-    }
+@media screen and (max-width: 900px) {
+  .Benefits {
+    flex-direction: column;
+  }
 }

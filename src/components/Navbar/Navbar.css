@@ -29,8 +29,8 @@
   right: 0;
   bottom: 0;
   background-color: #000000;
-  opacity: .3;
-  transition-duration: .25s;
+  opacity: 0.3;
+  transition-duration: 0.25s;
 }
 
 #menu__toggle:checked ~ .menu__box {
@@ -38,19 +38,17 @@
   right: 0;
 }
 
-
 @media screen and (min-width: 1024px) {
   .hamburger-menu {
-      display: none;
-      justify-content: flex-end;
-      justify-self:end;
+    display: none;
+    justify-content: flex-end;
+    justify-self: end;
   }
 }
 
 .menu__btn {
   display: flex;
-  
-  
+
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -67,14 +65,14 @@
 
   background-color: rgb(215, 93, 25);
 
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 .menu__btn > span::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 .menu__btn > span::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 
@@ -94,8 +92,8 @@
   list-style: none;
 
   background-color: #000000;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  transition-duration: .25s;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.25s;
   z-index: 50;
 }
 
@@ -119,7 +117,7 @@
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 .menu__item:hover {
   background-color: #ff831e;
@@ -135,5 +133,5 @@
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }

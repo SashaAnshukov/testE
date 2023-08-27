@@ -1,17 +1,27 @@
 .heading__description {
-    display: flex;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 22px;
-    margin: 17px 0 0 0;
-    background: linear-gradient(90deg, #ffff 10%, rgb(255, 152, 120) 50%, rgb(255, 69, 12));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  margin: 17px 0 0 0;
+  background: linear-gradient(
+    90deg,
+    #ffff 10%,
+    rgb(255, 152, 120) 50%,
+    rgb(255, 69, 12)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 600px) {
+  .heading__description {
+    max-width: 250px;
+  }
+}
 
 @media screen and (max-width: 320px) {
-    .heading__description {
-        margin: 0;
-    }
+  .heading__description {
+    margin: 0;
+  }
 }

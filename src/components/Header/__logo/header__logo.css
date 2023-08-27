@@ -1,31 +1,37 @@
 .header__logo {
-    min-height: auto;
-    margin: 26px 129px 40px 401px;
+  min-height: auto;
+  margin: 26px 129px 40px 401px;
 }
 
 .header__logo:hover {
-    opacity: 0.7;
-    transition: 0.6s;
+  opacity: 0.7;
+  transition: 0.6s;
 }
 
-@media screen and (max-width: 1280px) {
-    .header__logo {
-        margin: 26px 110px 40px 138px;
-    }
+@media screen and (max-width: 1548px) {
+  .header__logo {
+    margin: 26px 110px 40px 138px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .header__logo {
+    margin: 26px 55px 40px 69px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .header__logo {
-        margin: 18px 8px 18px 13px;
-    }
+  .header__logo {
+    margin: 26px 8px 40px 13px;
+  }
 }
 
-@media screen and (max-width:321px) {
-    .header__logo {
-        max-width: 150px;
-        display: block;
-        object-fit: contain;
-        box-sizing: border-box;
-        margin: 30px 6px 6px 6px;
-    }
+@media screen and (max-width: 321px) {
+  .header__logo {
+    max-width: 150px;
+    display: block;
+    object-fit: contain;
+    box-sizing: border-box;
+    margin: 30px 6px 6px 6px;
+  }
 }

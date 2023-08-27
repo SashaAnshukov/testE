@@ -1,27 +1,26 @@
 .heading__line {
-    display: flex;
-    width: 410px;
-    height: 200px;
-    margin: 145px 0 0 0;
-    background: url(../../../images/line.png);
-    background-repeat: no-repeat;
+  display: flex;
+  width: 410px;
+  height: 200px;
+  margin: 145px 0 0 0;
+  background: url(../../../images/line.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1980px) {
+  .heading__line {
+    width: calc(410px - (1930px - 100vw) * 0.5);
+  }
 }
 
 @media screen and (max-width: 1280px) {
-    .heading__line {
-        width: 322px;
-    }
+  .heading__line {
+    width: calc(315px - (1280px - 100vw) * 0.5);
+  }
 }
 
-@media screen and (max-width: 800px) {
-    .heading__line {
-        width: 207px;
-        margin: 88px 0 0 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .heading__line {
-        display: none;
-    }
+@media screen and (max-width: 900px) {
+  .heading__line {
+    visibility: hidden;
+  }
 }

@@ -1,26 +1,26 @@
 .NavBar__container {
-    width: 100%;
-    display: flex;
-    align-self: center;
-    justify-content: space-between;
-    height: 32px;
-    /*border: 1px solid rgba(255, 44, 44, 0.7);*/
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  height: 32px;
 }
 
 @media screen and (max-width: 1024px) {
-    .NavBar__container {
-        justify-content: flex-end;
-    }
+  .NavBar__container {
+    justify-content: flex-end;
+    margin: 0 69px 0 0;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .NavBar__container {
-        margin-right: 30px;
-    }
+  .NavBar__container {
+    margin-right: 30px;
+  }
 }
 
 @media screen and (max-width: 321px) {
-    .NavBar__container {
-        margin-right: 14px;
-    }
+  .NavBar__container {
+    margin-right: 14px;
+  }
 }
